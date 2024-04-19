@@ -26,3 +26,12 @@ body {
   background-color: #04aa6d;
   color: white;
 }
+
+
+ /* Style the footer */
+ footer {
+  background-color:blueviolet;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

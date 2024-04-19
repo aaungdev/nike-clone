@@ -22,12 +22,11 @@
 
   <body>
     <header>
-      <!-- place navbar here -->
     </header>
     <main>
       <form action="action_page.php">
         <div class="container">
-          <img src="starfield.jpeg />
+          <img src="Images/starfield.jpeg" alt="" />
           <h1>Welcome to the team!</h1>
           <p>Please fill in this form to create an account.</p>
           <hr />
@@ -42,7 +41,13 @@
           />
 
           <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required />
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            id="uname"
+            required
+          />
 
           <label for="psw"><b>Password</b></label>
           <input
@@ -63,11 +68,14 @@
           />
 
           <p>How did you hear about us?</p>
-          <input type="radio" placeholder="Enter Email" name="email" />
-          <label for="uname"><b>Linked in</b></label>
+          <input type="radio" />
+          <label for="uname"><b>Social Media Ads</b></label>
 
-          <input type="radio" placeholder="Enter Email" name="email" />
-          <label for="uname"><b>Indeed</b></label>
+          <input type="radio" />
+          <label for="uname"><b>In Person</b></label>
+
+          <input type="radio" />
+          <label for="uname"><b>Pop up Event</b></label>
 
           <hr />
 
@@ -84,7 +92,7 @@
       </form>
     </main>
     <footer>
-      <!-- place footer here -->
+      <p>Thankyou for shopping with us</p>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script

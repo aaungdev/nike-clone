@@ -83,3 +83,11 @@
       margin-bottom: 20px;
     }
   }
+
+  /* Style the footer */
+footer {
+  background-color:blueviolet;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
