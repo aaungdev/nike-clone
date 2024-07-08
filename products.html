@@ -24,11 +24,187 @@
       <a href="checkout.html">Checkout</a>
       <a href="userLogin.html">User Login</a>
     </div>
-
-
     <div>
       <img src="#" class="img-fluid" alt="" />
     </div>
+
+     <!-- top-bar -->
+    <div id="top-bar-container">
+      <div id="top-bar">
+        <div>
+          <img src="#" alt="" />
+        </div>
+        <div>
+          <ul>
+            <li><a href="help.html">Help</a></li>
+            <li>|</li>
+            <li><a href="JoinusPage.html">Join Us</a></li>
+            <li>|</li>
+            <li><a href="Signin.html">Sign In</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- nav-bar -->
+
+    <nav>
+      <div id="nav-details">
+        <!-- nike logo -->
+        <div id="nav-logo">
+          <a href="#"><img src="#" alt="logo" /></a>
+        </div>
+        
+        <!-- nav links -->
+        <div id="nav-bar">
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Customize</a></li>
+          </ul>
+        </div>
+        <!-- nav search button -->
+        <div id="nav-search">
+          <div id="search-bar" >
+            <form id="input-search">
+              <span>
+                <button>
+                  <img src="#" alt="" /></button>
+                </span>
+              <input onfocus="expand()" type="text" placeholder="Search" />
+            </form>
+            <button id="cross-btn" onclick="cross()"><i class="fa fa-times"></i></button>
+          </div>
+          <div id="fav-icon">
+            <a href="#"><img src="#" alt="" /></a>
+          </div>
+          <div id="cart-icon">
+            <a href="#"
+              ><img src="#" alt=""
+            /></a>
+            <span id="CArt"></span>
+          </div>
+          <div id="search-icon">
+            <a href="#">
+              <img src="#" alt="" />
+            </a>
+          </div>
+          <div id="menu-bar-icon">
+            <div id="icon-div">
+              <img src="#" alt="">
+            </div>
+          </div>
+        <div id="menu-items">
+          <div id="close-menu">
+            <img src="#" alt="">
+          </div>
+          <ul>
+            <li>
+              <span>Men</span>
+              <span><a href="#"><img class="menu-imgs" src="#" alt=""></a></span>
+            </li>
+            <li>
+              <span>Women</span>
+              <span><a href="#"><img class="menu-imgs" src="#" alt=""></a></span>
+            </li>
+            <li>
+              <span>Kids</span>
+              <span><a href="#"><img class="menu-imgs" src="#" alt=""></a></span>
+            </li>
+            <li>
+              <span>Customize</span>
+              <span><a href="#"><img class="menu-imgs" src="#" alt=""></a></span>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="sales-page">
+      <div id="top-sales-box">
+        <h1 id="heading"></h1>
+        <div id="filter-box">
+          <div class="type-bar"></div>
+          <div class="filter-div" onclick="hide()">
+            <span>Show Filters</span>
+            <span><img src="#" alt="" /></span>
+          </div>
+          <div id="sort-types">
+            <select id="sort" onchange="filter()">
+              <option value="--">Sort By</option>
+              <option value="featured">Featured</option>
+              <option value="newest">Newest</option>
+              <option value="high">Price:High to Low</option>
+              <option value="low">Price:Low to High</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="sales-content-box">
+        <div class="product-filter">
+          <div class="brand-type-filter">
+            <h1>Brand</h1>
+            <div>
+              <input type="checkbox" name="brand" class="brandcheckbox" id="Nike-Sportswear" value="Nike Sportswear" onclick="selectbrand1()">
+              <label for="Nike-Sportswear">Nike Sportswear</label><br>
+              <input type="checkbox" name="brand" class="brandcheckbox" id="Jordan" value="Jordan" onclick="selectbrand2()">
+              <label for="Jordan">Jordan</label><br>
+              <input type="checkbox" name="brand" class="brandcheckbox" id="NikeLab" value="NikeLab" onclick="selectbrand3()">
+              <label for="NikeLab">NikeLab</label><br>
+              <input type="checkbox" name="brand" class="brandcheckbox" id="Nike-Pro" value="Nike Pro" onclick="selectbrand4()">
+              <label for="Nike-Pro">Nike Pro</label><br>
+              <input type="checkbox" name="brand" class="brandcheckbox" id="ACG" value="ACG" onclick="selectbrand5()">
+              <label for="ACG">ACG</label><br>
+              <input type="checkbox" name="brand" class="brandcheckbox" id="Nike-By-You" value="Nike By You" onclick="selectbrand6()">
+              <label for="Nike-By-You">Nike By You</label><br>
+            </div>
+          </div>
+          <div class="sports-type-filter">
+            <h1>Sports</h1>
+            <div>
+              <form>
+                <input type="radio" name="sports" onclick="sports1()" id="Lifestyle" value="Lifestyle" >
+                <label for="Lifestyle">Lifestyle</label><br>
+                <input type="radio" name="sports" onclick="sports2()" id="Running" value="Running">
+                <label for="Running">Running</label><br>
+                <input type="radio" name="sports" onclick="sports3()" id="Training-and-Gym" value="Training and Gym">
+                <label for="Training-and-Gym">Training & Gym</label><br>
+                <input type="radio" name="sports" onclick="sports4()"  value="Jordan">
+                <label for="Jordan">Jordan</label><br>
+                <input type="radio" name="sports" onclick="sports5()" id="Athletics" value="Athletics">
+                <label for="Athletics">Athletics</label><br>
+                <input type="radio" name="sports" onclick="sports6()" id="Skateboarding" value="Skateboarding">
+                <label for="Skateboarding">Skateboarding</label><br>
+                <input type="radio" name="sports" onclick="sports7()" id="Golf" value="Golf">
+                <label for="Golf">Golf</label><br>
+                <input type="radio" name="sports" onclick="sports8()" id="Tennis" value="Tennis">
+                <label for="Tennis">Tennis</label><br>
+                <input type="radio" name="sports" onclick="sports9()" id="Walking" value="Walking">
+                <label for="Walking">Walking</label><br>
+                <input type="radio" name="sports" onclick="sports10()" id="Football" value="Football">
+                <label for="Football">Football</label><br>
+                <input type="radio" name="sports" onclick="sports11()" id="Basketball" value="Basketball">
+                <label for="Basketball">Basketball</label><br>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="container"></div>
+     
+
+   
+
+
+
+
+
+
+
+
+
+
 
     <main class="container">
       <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -115,10 +291,17 @@
             <div class="card-body">
               <h5 class="card-title">Nike Air Max</h5>
               <p class="card-text"><strong>Brand:</strong> Nike</p>
-                      <p class="card-text"><strong>Style:</strong> FQ8138-103</p>
-                      <p class="card-text"><strong>Colorway:</strong> White/White/Neutral Grey/Oxidized Green</p>
+              <p class="card-text"><strong>Style:</strong> FQ8138-103</p>
+              <p class="card-text">
+                <strong>Colorway:</strong> White/White/Neutral Grey/Oxidized
+                Green
+              </p>
               <p class="card-text"><strong>Retail Price:</strong> $150</p>
-              <p class="card-text"><strong>Description:</strong> Step into a classic. This AJ4 throws it back with full-grain and synthetic leathers and premium textiles.</p>
+              <p class="card-text">
+                <strong>Description:</strong> Step into a classic. This AJ4
+                throws it back with full-grain and synthetic leathers and
+                premium textiles.
+              </p>
               <a href="checkout.html" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -207,10 +390,16 @@
             <div class="card-body">
               <h5 class="card-title">Nike Attack</h5>
               <p class="card-text"><strong>Brand:</strong> Nike</p>
-                      <p class="card-text"><strong>Style:</strong> FZ2097-100</p>
-                      <p class="card-text"><strong>Colorway:</strong>  Sail/Coconut Milk/Pale Vanilla/Fir</p>
+              <p class="card-text"><strong>Style:</strong> FZ2097-100</p>
+              <p class="card-text">
+                <strong>Colorway:</strong> Sail/Coconut Milk/Pale Vanilla/Fir
+              </p>
               <p class="card-text"><strong>Retail Price:</strong> $130</p>
-              <p class="card-text"><strong>Description:</strong> This iconic sneaker broke the mold in tennis, and this fresh iteration breaks the mold on itself with  leather.</p>
+              <p class="card-text">
+                <strong>Description:</strong> This iconic sneaker broke the mold
+                in tennis, and this fresh iteration breaks the mold on itself
+                with leather.
+              </p>
               <a href="checkout.html" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -299,10 +488,18 @@
             <div class="card-body">
               <h5 class="card-title">Air Jordan 1 Low</h5>
               <p class="card-text"><strong>Brand:</strong> Nike</p>
-                      <p class="card-text"><strong>Style:</strong> 553558-172</p>
-                      <p class="card-text"><strong>Colorway:</strong>  White/Black/Metallic Gold</p>
-              <p class="card-text"><strong>Retail Price:</strong>  $115</p>
-              <p class="card-text"><strong>Description:</strong> Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh. With an iconic design that pairs perfectly with any 'fit, these kicks ensure you'll always be on point.</p>
+              <p class="card-text"><strong>Style:</strong> 553558-172</p>
+              <p class="card-text">
+                <strong>Colorway:</strong> White/Black/Metallic Gold
+              </p>
+              <p class="card-text"><strong>Retail Price:</strong> $115</p>
+              <p class="card-text">
+                <strong>Description:</strong> Inspired by the original that
+                debuted in 1985, the Air Jordan 1 Low offers a clean, classic
+                look that's familiar yet always fresh. With an iconic design
+                that pairs perfectly with any 'fit, these kicks ensure you'll
+                always be on point.
+              </p>
               <a href="checkout.html" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -391,10 +588,18 @@
             <div class="card-body">
               <h5 class="card-title">Nike Dunk Low</h5>
               <p class="card-text"><strong>Brand:</strong> Nike</p>
-                      <p class="card-text"><strong>Style:</strong> HF4292-100</p>
-                      <p class="card-text"><strong>Colorway:</strong>  Summit White/Baroque Brown/Phantom/Khaki</p>
-              <p class="card-text"><strong>Retail Price:</strong>  $125</p>
-              <p class="card-text"><strong>Description:</strong> Created for the hardwood but taken to the streets, this ‘80s basketball icon returns with classic details and throwback hoops flair. low-cut collar lets you take your game anywhere.</p>
+              <p class="card-text"><strong>Style:</strong> HF4292-100</p>
+              <p class="card-text">
+                <strong>Colorway:</strong> Summit White/Baroque
+                Brown/Phantom/Khaki
+              </p>
+              <p class="card-text"><strong>Retail Price:</strong> $125</p>
+              <p class="card-text">
+                <strong>Description:</strong> Created for the hardwood but taken
+                to the streets, this ‘80s basketball icon returns with classic
+                details and throwback hoops flair. low-cut collar lets you take
+                your game anywhere.
+              </p>
               <a href="checkout.html" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -483,10 +688,18 @@
             <div class="card-body">
               <h5 class="card-title">Nike Air VaporMax Plus</h5>
               <p class="card-text"><strong>Brand:</strong> Nike</p>
-                      <p class="card-text"><strong>Style:</strong> 924453-005</p>
-                      <p class="card-text"><strong>Colorway:</strong>  Wolf Grey/Metallic Silver/Dark Grey</p>
+              <p class="card-text"><strong>Style:</strong> 924453-005</p>
+              <p class="card-text">
+                <strong>Colorway:</strong> Wolf Grey/Metallic Silver/Dark Grey
+              </p>
               <p class="card-text"><strong>Retail Price:</strong> $210</p>
-              <p class="card-text"><strong>Description:</strong> The Nike Air VaporMax Plus looks to the past and propels you into the future. Nodding to the 1998 Air Max Plus with its floating cage, padded upper and heel logo, it adds revolutionary VaporMax Air technology to ramp up the comfort and create a modern look.</p>
+              <p class="card-text">
+                <strong>Description:</strong> The Nike Air VaporMax Plus looks
+                to the past and propels you into the future. Nodding to the 1998
+                Air Max Plus with its floating cage, padded upper and heel logo,
+                it adds revolutionary VaporMax Air technology to ramp up the
+                comfort and create a modern look.
+              </p>
               <a href="checkout.html" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -575,21 +788,76 @@
             <div class="card-body">
               <h5 class="card-title">Nike Go FlyEase</h5>
               <p class="card-text"><strong>Brand:</strong> Nike</p>
-                      <p class="card-text"><strong>Style:</strong>  DR5540-002</p>
-                      <p class="card-text"><strong>Colorway:</strong>   Black/White</p>
+              <p class="card-text"><strong>Style:</strong> DR5540-002</p>
+              <p class="card-text"><strong>Colorway:</strong> Black/White</p>
               <p class="card-text"><strong>Retail Price:</strong> $125</p>
-              <p class="card-text"><strong>Description:</strong> Ditch the laces and get outside. These kicks feature Nike's revolutionary FlyEase technology, making on-and-off a breeze. With a heel that pivots open for a totally hands-free entry, they're great for people with limited mobility—or anyone who wants a quicker way to get going.</p>
+              <p class="card-text">
+                <strong>Description:</strong> Ditch the laces and get outside.
+                These kicks feature Nike's revolutionary FlyEase technology,
+                making on-and-off a breeze. With a heel that pivots open for a
+                totally hands-free entry, they're great for people with limited
+                mobility—or anyone who wants a quicker way to get going.
+              </p>
               <a href="checkout.html" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
         </div>
       </div>
     </main>
+    </div>
+  </div>
+    
 
-    <footer>
-      <p>Thankyou for shopping with us</p>
-      <p>contact</p>
-    </footer>
+     <!-- footer  -->
+     <div class="space"></div>
+     <footer>
+       <div class="footer-container">
+         <div class="upper-footer">
+           <div class="footer-links">
+             <div>
+               <ul>
+                 <li><a href="#">FIND A STORE</a></li>
+                 <li><a href="#">BECOME A MEMBER</a></li>
+                 <li><a href="#">SIGN UP FOR EMAIL</a></li>
+                 <li><a href="#">STUDENT DISCOUNTS</a></li>
+                 <li><a href="#">SEND US FEEDBACK</a></li>
+               </ul>
+             </div>
+             <div>
+               <ul>
+                 <li><a href="#">GET HELP</a></li>
+                 <li><a href="#">Order Status</a></li>
+                 <li><a href="#">Delivery</a></li>
+                 <li><a href="#">Returns</a></li>
+                 <li><a href="#">Payment Options</a></li>
+                 <li><a href="#">Contact Us On Nike.com Inquiries</a></li>
+                 <li><a href="#">Contact Us On All Other Inquiries</a></li>
+               </ul>
+             </div>
+             <div>
+               <ul>
+                 <li><a href="#">ABOUT NIKE</a></li>
+                 <li><a href="#">News</a></li>
+                 <li><a href="#">Careers</a></li>
+                 <li><a href="#">Investors</a></li>
+                 <li><a href="#">Sustainability</a></li>
+               </ul>
+             </div>
+           </div>
+           <div class="social-icons">
+             <ul>
+               <li><a href="#"><img src="#" alt=""></a></li>
+               <li><a href="#"><img src="#" alt=""></a></li>
+               <li><a href="#"><img src="#" alt=""></a></li>
+               <li><a href="#"><img src="#" alt=""></a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </footer>
+ 
+     <!-- last space -->
+     <div class="last"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
