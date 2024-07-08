@@ -27,10 +27,19 @@ body {
   color: white;
 }
 
- /* Style the footer */
- footer {
-  background-color:blueviolet;
-  padding: 10px;
+ 
+/* .figure {
+  position: relative;
   text-align: center;
   color: white;
+} */
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.css-npy3on {
+  justify-content: end;
 }
