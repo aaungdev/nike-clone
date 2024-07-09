@@ -1,7 +1,7 @@
-body {
+/* body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 .topnav {
   overflow: hidden;
@@ -29,17 +29,72 @@ body {
 
  
 /* .figure {
-  position: relative;
-  text-align: center;
-  color: white;
+ justify-content:stretch;
+ flex-wrap: wrap;
+ 
 } */
 
-.bottom-left {
+.figure1 {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: -500px;
+  left: 20px;
 }
+
+.figure2 {
+  position: absolute;
+  bottom: -500px;
+  right: 120px;
+}
+
+.figure3 {
+  position: absolute;
+  bottom: -1100px;
+  left: 20px;
+}
+
+.figure4 {
+  position: absolute;
+  bottom: -1100px;
+  right: 120px;
+}
+
 
 .css-npy3on {
   justify-content: end;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Scroll Bar */
+
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-container figure {
+  display: inline-block;
+  margin: 10px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 10px;
+  background-color: #f3f3f3;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
 }
