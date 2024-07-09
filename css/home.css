@@ -18,14 +18,14 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #c59d9d;
   color: black;
 }
 
-.topnav a.active {
+/* .topnav a.active {
   background-color: #04aa6d;
   color: white;
-}
+} */
 
  
 /* .figure {
@@ -98,3 +98,5 @@
 .scroll-container::-webkit-scrollbar-thumb:hover {
   background-color: #aaa;
 }
+
+/* Main section */
