@@ -3,9 +3,16 @@
   font-family: Arial, Helvetica, sans-serif;
 } */
 
+.right-inner-addon i {
+  position: absolute;
+  right: 0px;
+  padding: 10px 12px;
+  pointer-events: none;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #333333;
+  background-color: #9b8888;
 }
 
 .topnav a {
