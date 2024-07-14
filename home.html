@@ -14,66 +14,111 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
+    <!-- First Nav -->
     <header>
-      <div class="container-fluid">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <div class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none px-5">
+      <div class="topnav1 container-fluid">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <div
+            class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none px-5 py-1"
+          >
             <ul class="nav col-12 col-lg-auto my-2 my-md-0">
               <li>
-                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M13.182 3.733c-.012-.039-.012-.039-.012-.072a.966.966 0 01.922-1.007.97.97 0 011.007.922.964.964 0 01-.917 1.007c-.027.004-.062 0-.101 0-.016.004-.04.004-.056.022-.056.084.14.073-.005.44 0 0 0 .038-.012.077-.012.14-.08.562-.096.793.029.04.04.05.029.13a6.003 6.003 0 01-.09.534c-.04.14-.096.174-.147.202-.073.298-.095.545-.281.905-.022.276-.045.35-.106.484-.017.4.01.46-.281 1.101-.08.3-.017.507.05.821.068.321.276.461.298.793.05.771.017 1.305-.163 1.907l.135.348c.18.084.618.326.36.675.343.19.865.394 1.28.781.176.147.35.315.513.5.316.057.276.08.506.231.675.438 1.749 1.304 2.373 1.906.112.067.147.112.236.163.01.023.017.034.01.04-.026.072-.026.072-.06.14.039.04.095.073.134.107.04.005.04-.006.096-.017.079.073.18.135.214.135.106-.022.084-.005.185-.1.029-.035.084 0 .084 0 .04-.04.113-.119.214-.176.079-.045.23-.045.23-.045.052.006.04.051.029.073-.057.023-.18.057-.247.108-.152.14-.276.353-.276.353.299-.033.484.045.719.023.136-.005.237.006.377-.09 0 0 .14-.096.265-.14.118-.05.23-.017.33.062.069.084.119.084 0 .196-.044.045-.1.096-.18.17-.133.123-.313.291-.5.432a3.11 3.11 0 01-.527.315c-.338.23-.26.174-.523.394-.03.022-.124.078-.163.106-.107.062-.135.006-.197-.118 0 0-.028-.045-.08-.14-.05-.107-.09-.23-.072-.23-.062-.007-.331-.344-.331-.41-.063-.013-.304-.26-.31-.31l-.214-.18c-.253.044-.31-.113-.961-.608-.08-.006-.197-.05-.36-.174-.298-.253-1.007-.815-1.124-.883-.13-.067-.281-.134-.383-.214-.146-.022-.218-.05-.298-.067-.08-.022-.14-.057-.326-.079-.303-.045-.618-.18-.911-.337-.14-.073-.264-.107-.382-.169-.27-.124-.506-.236-.686-.28a2.148 2.148 0 01-.568-.226c-.061-.034-.095-.06-.134-.073-.09-.022-.153.006-.192.022-.23.108-.438.203-.636.31-.18.09-.348.186-.528.286a7.971 7.971 0 01-.534.254s-.534.253-.832.348c-.26.197-.787.546-1.107.715-.158.073-.467.252-.608.292-.08.061-.371.258-.596.421-.18.124-.31.231-.31.231-.106.084-.101.13-.28.045a1.491 1.491 0 00-.13.096c-.14.095-.146.073-.202.067-.101.08-.113.04-.197.13-.061.084 0 .061-.118.106-.028.006-.04.04-.057.056-.094.073-.1.293-.325.304-.135.09-.107.203-.197.191 0 .102-.18.23-.214.23-.292.096-.304-.118-.646.035-.045.016-.113.072-.197.084-.152.022-.332-.006-.444-.102a1.93 1.93 0 01-.326-.398c-.051-.13-.017-.208.163-.332.073-.045.084-.079.208-.084.06-.024.045.01.15-.024.064-.016.064-.005.193-.005.028-.017.067-.022.124-.045.1-.034.196-.062.196-.062s.028-.023.124-.01c.078-.035.169-.08.214-.097-.012-.124.005-.124.06-.174.08-.062.09-.05.148-.01.022-.007.039-.013.027-.035-.01-.073-.061-.107-.045-.247-.022-.057-.061-.129-.05-.174.01-.045.028-.069.056-.079.029-.012.045.006.057.022.028.034.05.135.05.135.006.118.04.26.152.18.067-.062.084-.242.214-.203l.096.085c.084-.073.084-.073.14-.107 0 0-.08-.073-.012-.135.045-.039.108-.067.208-.175.276-.292.422-.42.714-.657a6.811 6.811 0 011.699-.939c.146-.174.28-.286.585-.304.377-.606 1.085-1.136 1.248-1.22.134-.23.19-.208.365-.247.135-.107.175-.107.23-.214.063-.23-.112-.86.383-.877.112-.146.078-.112.196-.248a2.19 2.19 0 01-.118-.5c-.005-.016-.196-.157-.13-.332a2.33 2.33 0 01-.268-.432.202.202 0 01-.063-.012c-.022-.005-.055-.005-.09-.005-.078.196-.163.208-.303.253-.26.512-.35.731-1.046 1.142-.28.298-.382.64-.382.634a.46.46 0 00-.012.321c-.045.107-.027.124-.027.124.01.045.056.106.106.112.079.023.169.023.158.118-.011.113-.163.09-.237.073-.275-.05-.185-.23-.365-.174-.141.085-.196.348-.416.31-.028-.023-.017-.074.006-.119.028-.06.084-.118.056-.14-.146.04-.433.123-.433.123-.135.04-.281-.039-.147-.124.063-.022.153-.05.265-.118 0 0 .062-.072-.057-.039a1.144 1.144 0 01-.416.045s-.257-.039-.292-.056c-.028-.022-.061-.107.017-.1a2.71 2.71 0 00.563-.068c.095-.035.28-.14.382-.186 0 0 .113-.157.18-.19.107-.114.19-.18.28-.299.09-.18.192-.46.5-.906a4.16 4.16 0 01.535-.646s.062-.338.343-.573c.063-.14.157-.31.259-.462a1.7 1.7 0 00.106-.168c.09-.13.186-.377.518-.41 0 0 .147-.102.197-.175.084-.073.074-.186.14-.259-.106-.106-.365-.309-.382-.573a.85.85 0 01.265-.692c.196-.185.398-.275.646-.258.309.055.366.157.455.258.09.101.13.04.163.146.259.073.248.045.237.236.045.057.106.108.1.214.085-.175.108-.208.344-.399.062-.157.1-.315.15-.478.052-.146.114-.298.154-.41-.04-.326.06-.377.196-.664-.022-.039-.016-.05-.006-.112.057-.192.136-.433.186-.596 0 0 .017-.063.085-.063.06-.202.157-.579.179-.663.062-.208.029-.287-.01-.41-.012-.04-.006-.09-.03-.136a5.483 5.483 0 01-.19-.41c-.028-.073-.08-.354-.08-.354-.004-.062-.004-.09-.004-.09z" clip-rule="evenodd"></path></svg>
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M13.182 3.733c-.012-.039-.012-.039-.012-.072a.966.966 0 01.922-1.007.97.97 0 011.007.922.964.964 0 01-.917 1.007c-.027.004-.062 0-.101 0-.016.004-.04.004-.056.022-.056.084.14.073-.005.44 0 0 0 .038-.012.077-.012.14-.08.562-.096.793.029.04.04.05.029.13a6.003 6.003 0 01-.09.534c-.04.14-.096.174-.147.202-.073.298-.095.545-.281.905-.022.276-.045.35-.106.484-.017.4.01.46-.281 1.101-.08.3-.017.507.05.821.068.321.276.461.298.793.05.771.017 1.305-.163 1.907l.135.348c.18.084.618.326.36.675.343.19.865.394 1.28.781.176.147.35.315.513.5.316.057.276.08.506.231.675.438 1.749 1.304 2.373 1.906.112.067.147.112.236.163.01.023.017.034.01.04-.026.072-.026.072-.06.14.039.04.095.073.134.107.04.005.04-.006.096-.017.079.073.18.135.214.135.106-.022.084-.005.185-.1.029-.035.084 0 .084 0 .04-.04.113-.119.214-.176.079-.045.23-.045.23-.045.052.006.04.051.029.073-.057.023-.18.057-.247.108-.152.14-.276.353-.276.353.299-.033.484.045.719.023.136-.005.237.006.377-.09 0 0 .14-.096.265-.14.118-.05.23-.017.33.062.069.084.119.084 0 .196-.044.045-.1.096-.18.17-.133.123-.313.291-.5.432a3.11 3.11 0 01-.527.315c-.338.23-.26.174-.523.394-.03.022-.124.078-.163.106-.107.062-.135.006-.197-.118 0 0-.028-.045-.08-.14-.05-.107-.09-.23-.072-.23-.062-.007-.331-.344-.331-.41-.063-.013-.304-.26-.31-.31l-.214-.18c-.253.044-.31-.113-.961-.608-.08-.006-.197-.05-.36-.174-.298-.253-1.007-.815-1.124-.883-.13-.067-.281-.134-.383-.214-.146-.022-.218-.05-.298-.067-.08-.022-.14-.057-.326-.079-.303-.045-.618-.18-.911-.337-.14-.073-.264-.107-.382-.169-.27-.124-.506-.236-.686-.28a2.148 2.148 0 01-.568-.226c-.061-.034-.095-.06-.134-.073-.09-.022-.153.006-.192.022-.23.108-.438.203-.636.31-.18.09-.348.186-.528.286a7.971 7.971 0 01-.534.254s-.534.253-.832.348c-.26.197-.787.546-1.107.715-.158.073-.467.252-.608.292-.08.061-.371.258-.596.421-.18.124-.31.231-.31.231-.106.084-.101.13-.28.045a1.491 1.491 0 00-.13.096c-.14.095-.146.073-.202.067-.101.08-.113.04-.197.13-.061.084 0 .061-.118.106-.028.006-.04.04-.057.056-.094.073-.1.293-.325.304-.135.09-.107.203-.197.191 0 .102-.18.23-.214.23-.292.096-.304-.118-.646.035-.045.016-.113.072-.197.084-.152.022-.332-.006-.444-.102a1.93 1.93 0 01-.326-.398c-.051-.13-.017-.208.163-.332.073-.045.084-.079.208-.084.06-.024.045.01.15-.024.064-.016.064-.005.193-.005.028-.017.067-.022.124-.045.1-.034.196-.062.196-.062s.028-.023.124-.01c.078-.035.169-.08.214-.097-.012-.124.005-.124.06-.174.08-.062.09-.05.148-.01.022-.007.039-.013.027-.035-.01-.073-.061-.107-.045-.247-.022-.057-.061-.129-.05-.174.01-.045.028-.069.056-.079.029-.012.045.006.057.022.028.034.05.135.05.135.006.118.04.26.152.18.067-.062.084-.242.214-.203l.096.085c.084-.073.084-.073.14-.107 0 0-.08-.073-.012-.135.045-.039.108-.067.208-.175.276-.292.422-.42.714-.657a6.811 6.811 0 011.699-.939c.146-.174.28-.286.585-.304.377-.606 1.085-1.136 1.248-1.22.134-.23.19-.208.365-.247.135-.107.175-.107.23-.214.063-.23-.112-.86.383-.877.112-.146.078-.112.196-.248a2.19 2.19 0 01-.118-.5c-.005-.016-.196-.157-.13-.332a2.33 2.33 0 01-.268-.432.202.202 0 01-.063-.012c-.022-.005-.055-.005-.09-.005-.078.196-.163.208-.303.253-.26.512-.35.731-1.046 1.142-.28.298-.382.64-.382.634a.46.46 0 00-.012.321c-.045.107-.027.124-.027.124.01.045.056.106.106.112.079.023.169.023.158.118-.011.113-.163.09-.237.073-.275-.05-.185-.23-.365-.174-.141.085-.196.348-.416.31-.028-.023-.017-.074.006-.119.028-.06.084-.118.056-.14-.146.04-.433.123-.433.123-.135.04-.281-.039-.147-.124.063-.022.153-.05.265-.118 0 0 .062-.072-.057-.039a1.144 1.144 0 01-.416.045s-.257-.039-.292-.056c-.028-.022-.061-.107.017-.1a2.71 2.71 0 00.563-.068c.095-.035.28-.14.382-.186 0 0 .113-.157.18-.19.107-.114.19-.18.28-.299.09-.18.192-.46.5-.906a4.16 4.16 0 01.535-.646s.062-.338.343-.573c.063-.14.157-.31.259-.462a1.7 1.7 0 00.106-.168c.09-.13.186-.377.518-.41 0 0 .147-.102.197-.175.084-.073.074-.186.14-.259-.106-.106-.365-.309-.382-.573a.85.85 0 01.265-.692c.196-.185.398-.275.646-.258.309.055.366.157.455.258.09.101.13.04.163.146.259.073.248.045.237.236.045.057.106.108.1.214.085-.175.108-.208.344-.399.062-.157.1-.315.15-.478.052-.146.114-.298.154-.41-.04-.326.06-.377.196-.664-.022-.039-.016-.05-.006-.112.057-.192.136-.433.186-.596 0 0 .017-.063.085-.063.06-.202.157-.579.179-.663.062-.208.029-.287-.01-.41-.012-.04-.006-.09-.03-.136a5.483 5.483 0 01-.19-.41c-.028-.073-.08-.354-.08-.354-.004-.062-.004-.09-.004-.09z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
               </li>
               <li class="px-3">
-                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M8.045 10.99V7.73L6.19 10.37 3.115 9.35l1.94 2.64-1.905 2.64 3.045-1.005 1.855 2.64v-3.26l3.11-1.02-3.115-.995zm12.84 1.02l-6.82 7.49H8.21l6.825-7.49L8.21 4.5h5.856l6.819 7.51z" clip-rule="evenodd"></path></svg>
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8.045 10.99V7.73L6.19 10.37 3.115 9.35l1.94 2.64-1.905 2.64 3.045-1.005 1.855 2.64v-3.26l3.11-1.02-3.115-.995zm12.84 1.02l-6.82 7.49H8.21l6.825-7.49L8.21 4.5h5.856l6.819 7.51z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
               </li>
             </ul>
           </div>
-          <ul class="nav col-12 col-lg-auto my-2 my-md-0">
-            <li class="px-2">
-                Find a Store
-            </li>
-            <li>
-              | 
-            </li>
-            <li class="px-2">
-               Help
-            </li>
-            <li>
-              |
-            </li>
-            <li class="px-2">
-                Join Us             
-            </li>
-            <li>
-              |
-            </li>
-            <li class="px-2">
-                Sign In
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="topnav container-fluid">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <div class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none px-5">
-            <ul class="nav col-12 col-lg-auto my-2 my-md-0">
+          <div>
+            <ul class="nav col-12 col-md-auto mb-2 mb-md-0 px-5">
+              <li>
+                <a href="#" class="nav-link link-dark fw-semibold nav-link"
+                  >Find a Store</a
+                >
+              </li>
+              <li class="py-2">|</li>
+              <li>
+                <a href="#" class="nav-link link-dark fw-semibold">Help</a>
+              </li>
+              <li class="py-2">|</li>
               <li>
                 <a
-          aria-label="Nike Home Page"
-          class="swoosh-link"
-          data-testid="link"
-          href="https://www.nike.com"
-          ><svg
+                  href="/userRegistration.html"
+                  class="nav-link link-dark fw-semibold"
+                  >Join Us</a
+                >
+              </li>
+              <li class="py-2">|</li>
+              <li>
+                <a href="/userLogin.html" class="nav-link link-dark fw-semibold"
+                  >Sign In</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Second Nav -->
+      <div
+        class="topnav2 container-fluid d-flex flex-wrap align-items-center justify-content-center justify-content-md-between"
+      >
+        <a
+          href="/"
+          title="Nike Logo"
+          class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none px-4"
+        >
+          <svg
             aria-hidden="true"
             class="swoosh-svg"
             focusable="false"
             viewBox="0 0 24 24"
             role="img"
-            width="75px"
-            height="75px"
+            width="80px"
+            height="80px"
             fill="none"
           >
             <path
@@ -81,585 +126,244 @@
               fill-rule="evenodd"
               d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z"
               clip-rule="evenodd"
-            ></path></svg></a>
-              </li>
-            </ul>
-          </div>
-          <ul class="nav col-12 col-lg-auto my-2 my-md-0">
-            <li class="px-2">
-              <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path></svg>
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-              </form>                       
-            </li>         
-            <li class="px-2">
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path></svg>           
+            ></path>
+          </svg>
+        </a>
+        <div id="nav-bar">
+          <ul
+            class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="new-feature.html" class="nav-link px-2 link-dark fw-bold"
+                >New & Featured</a
+              >
             </li>
-            <li class="px-2">
-              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg>
+            <li><a href="#" class="nav-link px-2 link-dark fw-bold">Men</a></li>
+            <li>
+              <a href="#" class="nav-link px-2 link-dark fw-bold">Women</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-2 link-dark fw-bold">Kids</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-2 link-dark fw-bold">Jordans</a>
             </li>
           </ul>
         </div>
-      </div>
-      <div class="topnav">
-        
-       
-        <!-- <div
-          class="css-jq32a0"
-          data-testid="desktop-drop-down-styled-wrapper-div"
+        <div
+          class="col-md-3 align-middle text-end px-5 d-flex align-items-center"
         >
-          <a
-            class="menu-hover-trigger-link"
-            data-testid="link"
-            href="https://www.nike.com/w/new-3n82y"
-            >New &amp; Featured</a
-          >
-          <details class="css-1qehhq">
-            <summary
-              aria-expanded="false"
-              aria-haspopup="menu"
-              aria-label="New &amp; Featured menu"
-              class="drop-down-accessibility-button"
-              role="menuitem"
-              tabindex="0"
+          <div class="searchContainer d-flex align-items-center">
+            <input type="search" class="serBox" placeholder="search" />
+            <button class="searchBtn"><i class="ri-search-line"></i></button>
+          </div>
+          <a href="/userRegistration.html" title="Favorites" class="px-2 py-3"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="21"
+              fill=""
+              class="bi bi-heart"
+              viewBox="0 0 16 16"
             >
-              <svg
-                aria-hidden="true"
-                class="summary-caret"
-                focusable="false"
-                viewBox="0 0 24 24"
-                role="img"
-                width="24px"
-                height="24px"
-                fill="none"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  d="M17.5 9.25l-5.5 5.5-5.5-5.5"
-                ></path>
-              </svg>
-            </summary>
-            <div
-              class="drop-down-details-content"
-              data-testid="dropdown-details-container"
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+              /></svg
+          ></a>
+          <a href="/checkout.html" title="Cart" class="px-2"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="21"
+              fill=""
+              class="bi bi-bag"
+              viewBox="0 0 16 16"
             >
-              <div class="css-w3vz3o" role="menu">
-                <ul aria-label="Get Set for School">
-                  <li class="dropdown__sub_list_title">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/back-to-school-840ik"
-                      ><p
-                        class="nds-text css-170191f e1yhcai00 appearance-body2Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Get Set for School
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/back-to-school-840ik"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Shop the Collection
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/bags-and-backpacks-9xy71"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Bags &amp; Backpacks
-                      </p></a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="css-w3vz3o" role="menu">
-                <ul aria-label="New &amp; Featured">
-                  <li class="dropdown__sub_list_title">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/new-3n82y"
-                      ><p
-                        class="nds-text css-170191f e1yhcai00 appearance-body2Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        New &amp; Featured
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/new-3n82y"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        New Arrivals
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/best-76m50"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Best Sellers
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/new-upcoming-drops-k0gk"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        New &amp; Upcoming Drops
-                      </p></a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="css-w3vz3o" role="menu">
-                <ul aria-label="Trending">
-                  <li class="dropdown__sub_list_title">
-                    <button
-                      class="nds-btn css-ssblh1 ex41m6f0 cta-primary-dark btn-responsive"
-                      type="submit"
-                      role="menuitem"
-                      data-testid="link"
-                    >
-                      <p
-                        class="nds-text css-170191f e1yhcai00 appearance-body2Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Trending
-                      </p>
-                    </button>
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/acg-93bsd"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        ACG
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/retro-running-shoes-8kemkzy7ok"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Retro Running
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/womens-color-shop-blues-5e1x6z7wk8r"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Armory Navy Shop
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/gear-up"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Shop Sport
-                      </p></a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="css-w3vz3o" role="menu">
-                <ul aria-label="Shop Classics">
-                  <li class="dropdown__sub_list_title">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/classics-collection-aj8oq"
-                      ><p
-                        class="nds-text css-170191f e1yhcai00 appearance-body2Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Shop Classics
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/dunk-shoes-90aohzy7ok"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Dunk
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/jordan-1-shoes-4fokyzy7ok"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Air Jordan 1
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/air-force-1-shoes-5sj3yzy7ok"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Air Force
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/air-max-shoes-a6d8hzy7ok"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Air Max
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/blazer-shoes-9gw3azy7ok"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Blazer
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/w/zoom-vomero-shoes-7gee1zy7ok"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Vomero
-                      </p></a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="css-w3vz3o" role="menu">
-                <ul aria-label="Explore">
-                  <li class="dropdown__sub_list_title">
-                    <button
-                      class="nds-btn css-ssblh1 ex41m6f0 cta-primary-dark btn-responsive"
-                      type="submit"
-                      role="menuitem"
-                      data-testid="link"
-                    >
-                      <p
-                        class="nds-text css-170191f e1yhcai00 appearance-body2Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Explore
-                      </p>
-                    </button>
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/launch"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        SNKRS Launch Calendar
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/running"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Running Shoe Finder
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/a/how-to-measure-bra-size"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Bra Finder
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/product-advice/product-care"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Product Care
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/membership"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Member Rewards
-                      </p></a
-                    >
-                  </li>
-                  <li class="dropdown__sub_list_item">
-                    <a
-                      role="menuitem"
-                      class=""
-                      data-testid="link"
-                      href="https://www.nike.com/product-advice/buying-guides"
-                      ><p
-                        class="nds-text css-t62sze e1yhcai00 appearance-body3Strong color-primary weight-regular"
-                        role="presentation"
-                      >
-                        Buying Guides
-                      </p></a
-                    >
-                  </li>
-                </ul>
-              </div> -->
-            </div>
-          </details>
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+              /></svg
+          ></a>
         </div>
       </div>
     </header>
+
     <!-- Main Sectiion of Content -->
     <main>
-      <div class="mt-3 py-2">
-        <a href="products.html" title="Nike. Just Do It"
-          ><img
-            src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2298,c_limit/afede39e-b290-4448-845c-cf7dc3cc70a4/nike-just-do-it.jpg"
-            alt="Nike. Just Do It"
-            style="height: 100%; width: 100%"
-        /></a>
-      </div>
-      <div class="justify-content-center mt-4">
-          <h3 class="text-center">Nike Pegasus 41</h3>
-          <p class="text-center">
-            Experience the responsive energy return of Air Zoom and <span>all-new ReactX foam. </span>
-          </p>
-          <div class="d-flex justify-content-center">
-            <a
-              class="btn btn-dark me-2 mt-1 px-3"
-              href="products.html">Shop</a>
-          </div>
+      <section class="parentContainer">
+        <div class="videoContainer">
+          <video src="Images/nike-welcome.mp4" autoplay muted loop></video>
+        </div>
+      </section>
+      <div class="sectionBelowVideo">
+        <h2>WIN ON AIR</h2>
+        <p class="txt-sp">Meet the next generation of Nike Air.</p>
+        <p class="txt-sp">
+          Engineered to exact specifications of championship althletes
+        </p>
+        <a href="#" class="shopNowButton">Experience Air</a>
+        <a href="#" class="shopNowButton">Shop Air</a>
       </div>
       <!-- Image rows -->
       <div class="row mt-5">
         <div class="column">
-          <a href="products.html" title="Vomer 5"
-              ><img
+          <figure>
+            <a href="products.html" title="Vomer 5">
+              <img
                 src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/075f238f-08b6-4002-9c62-ef2ab1f1ed80/nike-just-do-it.jpg"
-                alt="Nike. Just Do It" style="width:100%"/></a>
-                <figcaption class="figure-caption figure1 text-light">
-                  <p>Retro Kicks</p>
-                  <h3>Vomero 5 & More</h3>
-                    <a
-                      class="btn btn-dark me-2 mt-1"
-                      href="products.html"
-                      >Shop</a
-                    >
-                </figcaption>
+                alt="Nike. Just Do It"
+                style="width: 100%"
+              />
+            </a>
+            <figcaption class="figure-caption figure1 text-light">
+              <p class="fw-bold">Retro Kicks</p>
+              <h3>Vomero 5 & More</h3>
+              <a class="btn btn-light me-2 mt-1 fw-bold" href="products.html"
+                >Shop</a
+              >
+            </figcaption>
+          </figure>
         </div>
         <div class="column">
-          <a href="products.html" title="Nike Free Metcon 6"
-          ><img
-            src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/feba1971-74ba-4c45-b472-81086b38d5dc/nike-just-do-it.jpg"
-            alt="Nike. Just Do It" style="width:100%"/></a>
-            <figcaption class="figure-caption figure2  text-dark">
-              <p>Freedom and Stability</p>
+          <figure>
+            <a href="products.html" title="Nike Free Metcon 6" class="Image3">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/feba1971-74ba-4c45-b472-81086b38d5dc/nike-just-do-it.jpg"
+                alt="Nike. Just Do It"
+                style="width: 100%"
+              />
+            </a>
+            <figcaption class="figure-caption figure2 text-light">
+              <p class="fw-bold">Freedom and Stability</p>
               <h3>Nike Free Metcon 6</h3>
-                <a
-                  class="btn btn-dark me-2 mt-1"
-                  href="products.html"
-                  >Shop</a
-                >
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <a href="products.html" title="Classic Black and White"
-          ><img
-            src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/87e4f256-d1d0-44e4-a4f0-16610d37e88c/nike-just-do-it.jpg"
-            alt="Nike. Just Do It" style="width: 100%"/></a>
-            <figcaption class="figure-caption figure3  text-dark">
-              <p>Trending</p>
-            <h3>Classic Black and White</h3>
-              <a
-                class="btn btn-dark me-2 mt-1"
-                href="products.html"
-                >Shop</a>
-            </figcaption> 
+              <a class="btn btn-light me-2 mt-1 fw-bold" href="products.html"
+                >Shop</a
+              >
+            </figcaption>
+          </figure>
         </div>
         <div class="column">
-          <a href="products.html" title="Air Jordan 4'Oxidized Green"
-          ><img
-            src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/e8b7a5aa-b752-4326-bebe-c575a6ba8416/nike-just-do-it.jpg"
-            alt="Nike. Just Do It" style="width: 100%"/></a>
-        <figcaption class="figure-caption figure4  text-dark">
-          <p>New Arrivals</p>
-          <h3>Air Jordan 4'Oxidized Green</h3>
+          <figure>
             <a
-              class="btn btn-dark me-2 mt-1"
               href="products.html"
-              >Shop</a>
-        </figcaption>
-      </div>      
-      <div>
-        <h3 class="text-dark text-center mt-5">New This Week</h3>
-        <div class="d-flex justify-content-center">
-          <a class="btn btn-dark me-2 mt-1"
-          href="products.html">Shop New Arrivals</a>
+              title="Classic Black and White"
+              class="Image4"
+            >
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/87e4f256-d1d0-44e4-a4f0-16610d37e88c/nike-just-do-it.jpg"
+                alt="Nike. Just Do It"
+                style="width: 100%"
+              />
+            </a>
+            <figcaption class="figure-caption figure3 text-light">
+              <p class="fw-bold">Trending</p>
+              <h3>Classic Black and White</h3>
+              <a class="btn btn-light me-2 mt-1 fw-bold" href="products.html"
+                >Shop</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure>
+            <a
+              href="products.html"
+              title="Air Jordan 4'Oxidized Green"
+              class="Image5"
+            >
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/e8b7a5aa-b752-4326-bebe-c575a6ba8416/nike-just-do-it.jpg"
+                alt="Nike. Just Do It"
+                style="width: 100%"
+              />
+            </a>
+            <figcaption class="figure-caption figure4 text-light">
+              <p class="fw-bold">New Arrivals</p>
+              <h3>Air Jordan 4'Oxidized Green</h3>
+              <a class="btn btn-light me-2 mt-1 fw-bold" href="products.html"
+                >Shop</a
+              >
+            </figcaption>
+          </figure>
         </div>
       </div>
-      <!-- Image Scroll Bar --> 
-       <div class="scroll-container mt-5 mb-5">
-        <h2 class="text-dark px-5">Shop Air</h2>
-        <figure>
-          <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/39a9caa0-ad7c-40f5-9dea-6f5c84071b3a/nike-just-do-it.png" alt="Nike Alphafly 3">
-          <figcaption class="mt-3"><h3>Nike Alphafly 3</h3></figcaption>
-        </figure>
-        <figure>
-          <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/b475a362-420f-47c5-b742-c99681fa3c9b/nike-just-do-it.png" alt="Nike Pegasus 41">
-          <figcaption class="mt-3"><h3>Nike Pegasus 41</h3></figcaption>
-        </figure>
-        <figure>
-          <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/5c5ee72b-573e-4a0b-b31b-cdbb052d44d5/nike-just-do-it.png" alt="Nike G.T Hustle 3">
-          <figcaption class="mt-3"><h3>Nike G.T Hustle 3</h3></figcaption>
-        </figure>
-        <figure>
-          <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/4fc4aaa8-e1ee-4042-8121-7a27e6cd05c8/nike-just-do-it.png" alt="Nike Mercurial Superfly">
-          <figcaption class="mt-3"><h3>Nike Mercurial Superfly</h3></figcaption>
-        </figure>
-        <figure>
-          <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/e7497ec3-4f60-437b-a8c0-170fd95f33cc/nike-just-do-it.png" alt="Nike Pegasus EasyOn">
-          <figcaption class="mt-3"><h3>Nike Pegasus EasyOn</h3></figcaption>
-        </figure>
-        <figure>
-          <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/a42f63fc-ece9-422f-812d-cc36eeeb5fcd/nike-just-do-it.png" alt="Nike Mercurial Vapor">
-          <figcaption class="mt-3"><h3>Nike Mercurial Vapor</h3></figcaption>
-        </figure>
-        <figure>
-          <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/d7355ad6-7d1f-4003-96ac-4a30c8667647/nike-just-do-it.png" alt="Nike Maxfly 2">
-          <figcaption class="mt-3"><h3>Nike Maxfly 2</h3></figcaption>
-        </figure>
+      <section>
+        <div class="sectionBelowVideo1">
+          <h3>NEW THIS WEEK</h3>
+          <a href="#" class="shopNowButton1">Shop New Arrivals</a>
+        </div>
+      </section>
+      <div class="row">
+        <!-- <div class="">
+          <h2 class="text-dark text-center mt-5 text-uppercase fw-bold">
+            NEW THIS WEEK
+          </h2>
+          <div class="d-flex justify-content-center">
+            <a class="btn btn-dark me-2 mt-1" href="products.html"
+              >Shop New Arrivals</a
+            >
+          </div>
+        </div> -->
+        <!-- Image Scroll Bar -->
+        <div class="scroll-container mt-5 mb-5">
+          <h2 class="text-dark px-5 text-uppercase fw-bold">
+            Shop By Classics
+          </h2>
+          <figure>
+            <a href="/products.html" title="Air Max">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/3a843a65-00d9-48ef-a068-4c4dfc628c3c/nike-just-do-it.jpg"
+                alt="Nike Air Max"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a href="/products.html" title="Air Jordan 1">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/f66e2e57-8c09-4fe2-b9c0-a8eeb1500214/nike-just-do-it.jpg"
+                alt="Air Jordan 1"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a href="/products.html" title="Dunk">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/105756ec-102e-4bd9-99b7-c2982b3d63fb/nike-just-do-it.jpg"
+                alt="Dunk"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a href="/products.html" title="Air Force 1">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/69825330-5dd3-4152-bdb4-ec28d30495f8/nike-just-do-it.jpg"
+                alt="Air Force 1"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a href="/products.html" title="Blazer">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/5655e9ec-0f89-4e29-9dcc-486bb6c6abac/nike-just-do-it.jpg"
+                alt="Blazer"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a href="/products.html" title="Vomero">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/6c62a820-6f8e-4228-bce0-2488dd8531e7/nike-just-do-it.jpg"
+                alt="Vomero"
+              />
+            </a>
+          </figure>
+        </div>
       </div>
-</main>
+    </main>
     <!-- Footer -->
     <div class="container-fluid mt-5 py-2">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
         <div class="col mb-3">
           <h5>Resources</h5>
           <ul class="nav flex-column">
