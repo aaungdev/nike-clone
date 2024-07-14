@@ -1,0 +1,184 @@
+#salesPage {
+  padding-top: 50px;
+  width: 94vw;
+  margin: auto;
+  height: max-content;
+}
+#heading {
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  flex: 0.7;
+}
+#topSalesBox {
+  display: flex;
+  justify-content: space-between;
+}
+#clothSortingBar {
+  display: none;
+}
+#filterBox {
+  display: flex;
+  justify-content: space-around;
+  flex: 0.3;
+}
+#filterBox div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#filterBox div:nth-child(1) {
+  padding: 10px;
+}
+#filterBox div span img {
+  width: 20px;
+  height: auto;
+  padding-left: 10px;
+}
+#filterBox div span {
+  font-size: 23px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#sort {
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: none;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  width: fit-content;
+  margin-right: 10px;
+  transition: 0.3s ease-in-out;
+}
+#sort option {
+  border-radius: 5px;
+  border: 1px solid peachpuff;
+}
+#topSalesBox {
+  position: sticky;
+  top: 6vh;
+  background-color: white;
+  z-index: 2;
+}
+.salesContentBox {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.productFilter {
+  width: 20vw;
+  /* background-color: wheat; */
+  height: 100%;
+  margin-right: 10px;
+  padding: 5px;
+}
+.clothingTypeFilter {
+  margin: 20px 0px;
+}
+.clothingTypeFilter ul {
+  list-style: none;
+}
+.clothingTypeFilter ul li {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 5px;
+  cursor: pointer;
+}
+.brandTypeFilter h1,
+.sportsTypeFilter h1 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.brandTypeFilter > div,
+.sportsTypeFilter > div,
+.sortTypeFilter > div {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.brandTypeFilter > div > input,
+.sportsTypeFilter > div > form > input,
+.sortTypeFilter > div > input {
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.brandTypeFilter > div > label,
+.sportsTypeFilter > div > form > label,
+.sortTypeFilter > div > label {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.sortTypeFilter {
+  display: none;
+}
+/* js class */
+.hideAndshow {
+  width: 0px;
+  position: relative;
+  left: -300px;
+  transition: 0.4s ease-in-out;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: fit-content;
+  gap: 30px;
+  width: auto;
+  height: 100vh;
+  overflow-y: scroll;
+}
+#container::-webkit-scrollbar {
+  width: 0px;
+}
+#container::-webkit-scrollbar-track {
+  color: gray;
+}
+.itemBox {
+  height: 80%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.content h3 {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+.content > h3:nth-child(2),
+.content > h3:nth-child(3) {
+  color: gray;
+}
+.priceBox,
+.discountBox {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.priceBox {
+  font-size: 19px;
+}
+.discountBox {
+  color: rgb(49, 177, 49);
+}
