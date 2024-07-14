@@ -1,5 +1,5 @@
 #salesPage {
-  padding-top: 50px;
+  padding-top: 30px;
   width: 94vw;
   margin: auto;
   height: max-content;
@@ -155,6 +155,7 @@
 img {
   width: 100%;
   height: auto;
+  margin-bottom: 10px;
 }
 
 .content h3 {
@@ -180,4 +181,49 @@ img {
 }
 .discountBox {
   color: rgb(49, 177, 49);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #dadada56;
+  overflow: hidden;
+  position: relative;
+}
+
+.arrow {
+  font-size: 20px;
+  color: grey;
+  cursor: pointer;
+  margin: 0 20px;
+  z-index: 10;
+}
+
+.carousel-content {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 0 20px;
+  white-space: nowrap;
+  position: relative;
+  width: calc(50% - 160px);
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-content a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 2px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.carousel-content a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #000;
 }
