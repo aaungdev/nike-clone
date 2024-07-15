@@ -36,6 +36,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/products.css" />
     <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/cart.css" />
   </head>
   <body>
     <header>
@@ -206,389 +207,98 @@
       </div>
     </section>
 
-    <div id="salesPage">
-      <div id="topSalesBox">
-        <h1 id="heading">Men Shoes & Sneakers(861)</h1>
-        <div id="filterBox">
-          <div class="typeBar"></div>
-          <div class="filterDiv">
-            <span>Hide Filters</span>
-            <span><img src="products-images/filter.png" alt="" /></span>
-          </div>
-          <div id="sortTypes">
-            <select name="" id="sort">
-              <option value="--">Sort By</option>
-              <option value="featured">Featured</option>
-              <option value="newest">Newest</option>
-              <option value="high">Price:High to Low</option>
-              <option value="low">Price:Low to High</option>
-            </select>
-          </div>
+    <main>
+        <div class="productContainer">
+            <div class="imageGallery">
+                <div class="thumbnailList">
+                    <img src="cart-images/01.png" alt="Thumbnail 1" data-large="cart-images/01.png">
+                    <img src="cart-images/02.png" alt="Thumbnail 2" data-large="cart-images/02.png">
+                    <img src="cart-images/03.png" alt="Thumbnail 3" data-large="cart-images/03.png">
+                    <img src="cart-images/04.png" alt="Thumbnail 4" data-large="cart-images/04.png">
+                    <img src="cart-images/05.png" alt="Thumbnail 5" data-large="cart-images/05.png">
+                    <img src="cart-images/06.png" alt="Thumbnail 6" data-large="cart-images/06.png">
+                    <img src="cart-images/07.png" alt="Thumbnail 7" data-large="cart-images/07.png">
+                    <img src="cart-images/08.png" alt="Thumbnail 8" data-large="cart-images/08.png">
+                    <img src="/cart-images/02.png" alt="Thumbnail 9" data-large="cart-images/09.png">
+                </div>
+                <div class="mainImageContainer">
+                    <div class="mainImage">
+                        <div class="highlyRated">★ Highly Rated</div>
+                        <img id="mainImage" src="cart-images/01.png" alt="Main Image">
+                        <div class="imageArrows">
+                            <div class="leftArrow">&lt;</div>
+                            <div class="rightArrow">&gt;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="productDetails">
+                <h1 class="productName">Nike Air Force 1 '07</h1>
+                <p class="productCategory">Women's Shoes</p>
+                <p class="productPrice">
+                    <span class="currentPrice">$69.97</span>
+                    <span class="originalPrice">$115</span>
+                    <span class="discount">39% off</span>
+                </p>
+                <p class="memberExclusive">Member Exclusive: sign in and use code <strong>EXTRA25</strong> for an extra 25% off.</p>
+                <div class="colorOptions">
+                    <img src="cart-images/color1.jpg" alt="Color 1">
+                    <img src="cart-images/color2.jpg" alt="Color 2">
+                    <img src="cart-images/color3.jpg" alt="Color 3">
+                    <img src="cart-images/color4.jpg" alt="Color 4">
+                </div>
+                <div class="sizeSelector">
+                    <label for="size1">Select Size</label>
+                    <div class="sizes">
+                        <button>W 5 / M 3.5</button>
+                        <button>W 5.5 / M 4</button>
+                        <button>W 6 / M 4.5</button>
+                        <button>W 6.5 / M 5</button>
+                        <button>W 7 / M 5.5</button>
+                        <button>W 7.5 / M 6</button>
+                        <button>W 8 / M 6.5</button>
+                        <button>W 8.5 / M 7</button>
+                        <button>W 9 / M 7.5</button>
+                        <button>W 9.5 / M 8</button>
+                        <button>W 10 / M 8.5</button>
+                        <button>W 10.5 / M 9</button>
+                        <button>W 11 / M 9.5</button>
+                        <button>W 11.5 / M 10</button>
+                        <button>W 12 / M 10.5</button>
+                        <button>W 13 / M 11.5</button>
+                        <button>W 14 / M 12.5</button>
+                        <button>W 15 / M 13.5</button>
+                        <button>W 16 / M 14.5</button>
+                    </div>
+                </div>
+                <div class="paymentInfo">4 interest-free payments of $17.49 with Klarna. <a href="#">Learn More</a></div>
+                <button class="addToBag">Add to Bag</button>
+                <button class="favorite">Favorite <span>&#9825;</span></button>
+                <div class="additionalInfo">
+                    <p>Take your love for the game with you wherever you go. Crossing hardwood comfort with off-court flair, these kicks put a fresh spin on a hoops classic with muted neutrals against a backdrop of rich materials. Of course, we kept the same era-echoing '80s construction and a hidden Nike Air unit you know and love for that legendary AF1.</p>
+                    <p><strong>Jordan</strong></p>
+                    <p>
+                        <ul>
+                            <li>Shown: Sail/Vintage Green/Sesame</li>
+                            <li>Style: FZ3597-133</li>
+                        </ul>
+                    </p>
+                    <a href="#" class="productDetailsLink">View Product Details</a>
+                    <details class="dropdown">
+                        <summary>Shipping & Returns</summary>
+                        <p>Free standard shipping on orders $50+ and free 60-day returns for Nike Members. <a href="#">Learn more.</a> Return policy exclusions apply.</p>
+                        <p>Pick-up available at select Nike Stores.</p>
+                    </details>
+                    <details class="dropdown">
+                        <summary>Reviews (71) <span class="stars">★★★★☆</span></summary>
+                        <p>Review details here...</p>
+                    </details>
+                    <p><a href="#">Message</a></p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div id="clothSortingBar">
-        <ul>
-          <li>Tops and T-Shirts</li>
-          <li>Shorts</li>
-          <li>Trousers & Tights</li>
-          <li>Jackets & Giltets</li>
-          <li>Hoddies & Sweatshirts</li>
-          <li>Socks</li>
-          <li>Compression & Baselayer</li>
-          <li>Tracksuits</li>
-          <li>Accessories and Equipments</li>
-        </ul>
-      </div>
-      <div class="salesContentBox">
-        <div class="productFilter">
-          <div class="sortTypeFilter">
-            <h1>Sort By</h1>
-            <div>
-              <input type="radio" name="sort" id="featured" value="featured" />
-              <label for="featured">Featured</label><br />
-              <input type="radio" name="sort" id="newest" value="newest" />
-              <label for="newest">Newest</label><br />
-              <input type="radio" name="sort" id="high" value="high" />
-              <label for="high">High to Low</label><br />
-              <input type="radio" name="sort" id="low" value="low" />
-              <label for="low">Low to High</label><br />
-            </div>
-          </div>
-          <div class="brandTypeFilter">
-            <h1>Brand</h1>
-            <div>
-              <input
-                type="checkbox"
-                name="brand"
-                class="brandCheckbox"
-                id="nikeSportswear"
-                value="Nike Sportswear"
-              />
-              <label for="nikeSportswear">Nike Sportswear</label><br />
-              <input
-                type="checkbox"
-                name="brand"
-                class="brandCheckbox"
-                id="jordan"
-                value="Jordan"
-              />
-              <label for="jordan">Jordan</label><br />
-              <input
-                type="checkbox"
-                name="brand"
-                class="brandCheckbox"
-                id="nikeLab"
-                value="NikeLab"
-              />
-              <label for="nikeLab">NikeLab</label><br />
-              <input
-                type="checkbox"
-                name="brand"
-                class="brandCheckbox"
-                id="nikePro"
-                value="Nike Pro"
-              />
-              <label for="nikePro">Nike Pro</label><br />
-              <input
-                type="checkbox"
-                name="brand"
-                class="brandCheckbox"
-                id="acg"
-                value="ACG"
-              />
-              <label for="acg">ACG</label><br />
-              <input
-                type="checkbox"
-                name="brand"
-                class="brandCheckbox"
-                id="nikeByYou"
-                value="Nike By You"
-              />
-              <label for="nikeByYou">Nike By You</label><br />
-            </div>
-          </div>
-          <div class="sportsTypeFilter">
-            <h1>Sports</h1>
-            <div>
-              <form action="">
-                <input
-                  type="radio"
-                  name="sports"
-                  id="lifestyle"
-                  value="Lifestyle"
-                />
-                <label for="lifestyle">Lifestyle</label><br />
-                <input
-                  type="radio"
-                  name="sports"
-                  id="running"
-                  value="Running"
-                />
-                <label for="running">Running</label><br />
-                <input
-                  type="radio"
-                  name="sports"
-                  id="trainingAndGym"
-                  value="Training and Gym"
-                />
-                <label for="trainingAndGym">Training & Gym</label><br />
-                <input type="radio" name="sports" id="jordan" value="Jordan" />
-                <label for="jordan">Jordan</label><br />
-                <input
-                  type="radio"
-                  name="sports"
-                  id="athletics"
-                  value="Athletics"
-                />
-                <label for="athletics">Athletics</label><br />
-                <input
-                  type="radio"
-                  name="sports"
-                  id="skateboarding"
-                  value="Skateboarding"
-                />
-                <label for="skateboarding">Skateboarding</label><br />
-                <input type="radio" name="sports" id="golf" value="Golf" />
-                <label for="golf">Golf</label><br />
-                <input type="radio" name="sports" id="tennis" value="Tennis" />
-                <label for="tennis">Tennis</label><br />
-                <input
-                  type="radio"
-                  name="sports"
-                  id="walking"
-                  value="Walking"
-                />
-                <label for="walking">Walking</label><br />
-                <input
-                  type="radio"
-                  name="sports"
-                  id="football"
-                  value="Football"
-                />
-                <label for="football">Football</label><br />
-                <input
-                  type="radio"
-                  name="sports"
-                  id="basketball"
-                  value="Basketball"
-                />
-                <label for="basketball">Basketball</label><br />
-              </form>
-            </div>
-          </div>
-        </div>
-        <div id="container">
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img src="products-images/012.png" alt="Nike Air Force 1 '07" />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Air Force 1 '07</h3>
-                <h3>Nike Sportswear</h3>
-                <h3>Lifestyle</h3>
-                <div class="priceBox">$210</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img
-                  src="products-images/01.png"
-                  alt="Nike Dunk High 1985 SP"
-                />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Dunk High 1985 SP</h3>
-                <h3>Nike By You</h3>
-                <h3>Running</h3>
-                <div class="priceBox">$150</div>
-                <div class="discountBox">Trending</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img
-                  src="products-images/02.png"
-                  alt="Nike Air Force 1 '07 LX"
-                />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Air Force 1 '07 LX</h3>
-                <h3>Nike Sportswear</h3>
-                <h3>Training and Gym</h3>
-                <div class="priceBox">$170</div>
-                <div class="discountBox">Trending</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img src="products-images/03.png" alt="Nike Air Force 1 '07" />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Air Force 1 '07</h3>
-                <h3>Nike Sportswear</h3>
-                <h3>Lifestyle</h3>
-                <div class="priceBox">$120</div>
-                <div class="discountBox">40% off</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img
-                  src="products-images/04.png"
-                  alt="Nike Dunk High 1985 SP"
-                />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Dunk High 1985 SP</h3>
-                <h3>Nike By You</h3>
-                <h3>Running</h3>
-                <div class="priceBox">$155</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img
-                  src="products-images/05.png"
-                  alt="Nike Air Force 1 '07 LX"
-                />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Air Force 1 '07 LX</h3>
-                <h3>Nike Sportswear</h3>
-                <h3>Training and Gym</h3>
-                <div class="priceBox">$210</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img src="products-images/06.png" alt="Nike Air Force 1 '07" />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Air Force 1 '07</h3>
-                <h3>Nike Sportswear</h3>
-                <h3>Lifestyle</h3>
-                <div class="priceBox">$95</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img
-                  src="products-images/07.png"
-                  alt="Nike Dunk High 1985 SP"
-                />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Dunk High 1985 SP</h3>
-                <h3>Nike By You</h3>
-                <h3>Running</h3>
-                <div class="priceBox">$100</div>
-                <div class="discountBox">19% off</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img src="products-images/08.png" alt="Nike Air Force 1 '07" />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Air Force 1 '07</h3>
-                <h3>Nike Sportswear</h3>
-                <h3>Lifestyle</h3>
-                <div class="priceBox">$160</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img
-                  src="products-images/09.png"
-                  alt="Nike Dunk High 1985 SP"
-                />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Dunk High 1985 SP</h3>
-                <h3>Nike By You</h3>
-                <h3>Running</h3>
-                <div class="priceBox">$160</div>
-                <div class="discountBox">19% off</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img src="products-images/010.png" alt="Nike Air Force 1 '07" />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Air Force 1 '07</h3>
-                <h3>Nike Sportswear</h3>
-                <h3>Lifestyle</h3>
-                <div class="priceBox">$200</div>
-              </div>
-            </div>
-          </div>
-          <div class="itemBox">
-            <div class="imgBox">
-              <a href="cart.html">
-                <img
-                  src="products-images/011.png"
-                  alt="Nike Dunk High 1985 SP"
-                />
-              </a>
-            </div>
-            <div class="textBox">
-              <div class="content">
-                <h3>Nike Dunk High 1985 SP</h3>
-                <h3>Nike By You</h3>
-                <h3>Running</h3>
-                <div class="priceBox">$95</div>
-                <div class="discountBox">30% off</div>
-              </div>
-            </div>
-          </div>
-          <!-- Add more items as needed -->
-        </div>
-      </div>
-    </div>
+    </main>
+
     <!-- Footer -->
     <div class="container-fluid mt-5 py-2">
       <footer
@@ -755,6 +465,7 @@
       </div>
     </div>
     <script src="scripts/products.js"></script>
+    <script src="scripts/carts.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "Members: Free Shipping on Orders $50+",
   ];
   let currentIndex = 0;
-  const contentElement = document.getElementById("carousel-text");
+  const contentElement = document.getElementById("carouselText");
 
   function slideText() {
     contentElement.style.transition = "none";
@@ -18,5 +18,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 100);
   }
 
-  setInterval(slideText, 3000); // Change text every 3 seconds
+  setInterval(slideText, 3000);
 });

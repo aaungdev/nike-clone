@@ -202,7 +202,7 @@ img {
   z-index: 10;
 }
 
-.carousel-content {
+.carouselContent {
   font-size: 12px;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -214,7 +214,7 @@ img {
   justify-content: center;
 }
 
-.carousel-content a {
+.carouselContent a {
   text-decoration: none;
   color: #333;
   border-bottom: 2px solid #333;
@@ -223,7 +223,7 @@ img {
   white-space: nowrap;
 }
 
-.carousel-content a:hover {
+.carouselContent a:hover {
   text-decoration: none;
   border-bottom: 2px solid #000;
 }
