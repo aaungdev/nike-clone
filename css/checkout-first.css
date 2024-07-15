@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
 }
 
 .cartContainer {
@@ -45,9 +44,6 @@ body {
 .cartSummary {
   width: 35%;
   padding: 20px;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
 }
 
 .cartItem {
@@ -127,7 +123,7 @@ body {
 }
 
 .cartSummary h2 {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
