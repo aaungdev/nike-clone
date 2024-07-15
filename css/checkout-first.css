@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cartContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.promoBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.promoBanner span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.promoBanner .closeBanner {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cartContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartItems {
+  width: 60%;
+}
+
+.cartSummary {
+  width: 35%;
+  padding: 20px;
+}
+
+.cartItem {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.cartItem img {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.itemDetails {
+  flex: 1;
+}
+
+.itemDetails h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.itemDetails p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.itemActions {
+  display: flex;
+  gap: 10px;
+}
+
+.itemActions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.itemPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.itemPrice .originalPrice {
+  text-decoration: line-through;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.itemPrice .currentPrice {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.favorites {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.favorites h2 {
+  margin: 0 0 10px 0;
+}
+
+.favorites p {
+  margin: 0;
+  font-size: 14px;
+  color: grey;
+}
+
+.cartSummary h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.promoCode {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.promoCode label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.promoCode input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.summaryDetails {
+  margin-bottom: 20px;
+}
+
+.summaryDetails p {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.summaryDetails .total {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.checkout,
+.paypal {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 24px;
+}
+
+.checkout {
+  background-color: black;
+  color: white;
+}
+
+.paypal {
+  background-color: white;
+  color: #0070ba;
+  border: 1px solid #0070ba;
+}
