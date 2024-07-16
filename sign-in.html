@@ -24,19 +24,27 @@
           YOUR ACCOUNT FOR<br />
           EVERYTHING NIKE
         </h1>
-        <input
-          type="email"
-          placeholder="Email Address"
-          id="email" required
-        /><br /><br />
-        <input type="password" placeholder="Password" id="pass" required /><br /><br />
-        <input type="checkbox" />Keep me signed in<a href="forget.html" id="a"
-          >Forgotten Your Password?</a
-        ><br /><br />
-        By logging in, you agree to Nike's <span>Privacy Policy</span> and<br />
-        <span> Terms of Use.</span><br /><br />
-        <button id="signin" onclick="location.href='home.html';">SIGN IN</button
-        ><br /><br />
+        <form action="home.html" method="get">
+          <input
+            type="email"
+            placeholder="Email Address"
+            id="email"
+            required
+          /><br /><br />
+          <input
+            type="password"
+            placeholder="Password"
+            id="pass"
+            required
+          /><br /><br />
+          <input type="checkbox" />Keep me signed in<a href="forget.html" id="a"
+            >Forgotten Your Password?</a
+          ><br /><br />
+          By logging in, you agree to Nike's
+          <span>Privacy Policy</span> and<br />
+          <span> Terms of Use.</span><br /><br />
+          <button type="submit" id="signin">SIGN IN</button><br /><br />
+        </form>
         Not a Member?<a href="register.html" style="color: black">Join us</a>
       </div>
     </div>
