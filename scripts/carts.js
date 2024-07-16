@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       event.preventDefault();
       messageBox.style.display = "block";
     } else {
-      // Code to add the item to the cart
+      window.location.href = "checkout-first.html";
     }
   });
 });
