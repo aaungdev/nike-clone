@@ -3,7 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const mainImage = document.getElementById("mainImage");
   const leftArrow = document.querySelector(".leftArrow");
   const rightArrow = document.querySelector(".rightArrow");
+  const sizeButtons = document.querySelectorAll(".sizeSelector .sizes button");
+  const addToBagButton = document.querySelector(".addToBag");
+  const messageBox = document.getElementById("messageBox");
   let currentImageIndex = 0;
+  let sizeSelected = false;
 
   thumbnails.forEach((thumbnail, index) => {
     thumbnail.addEventListener("mouseover", function () {
@@ -27,5 +31,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
   rightArrow.addEventListener("click", function () {
     showImage(currentImageIndex + 1);
+  });
+
+  sizeButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      sizeButtons.forEach((btn) => (btn.style.border = "none"));
+      button.style.border = "2px solid #000";
+      addToBagButton.disabled = false;
+      sizeSelected = true;
+      messageBox.style.display = "none";
+    });
+  });
+
+  addToBagButton.addEventListener("click", function (event) {
+    if (!sizeSelected) {
+      event.preventDefault();
+      messageBox.style.display = "block";
+    } else {
+      window.location.href = "checkout-first.html";
+    }
   });
 });

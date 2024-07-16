@@ -216,3 +216,15 @@ main {
   font-size: 18px;
   color: gold;
 }
+
+.sizeSelector .sizes button.selected {
+  border: 2px solid #000;
+}
+
+#messageBox {
+  border: 1px solid red;
+  padding: 10px;
+  color: red;
+  margin-top: 10px;
+  display: none;
+}

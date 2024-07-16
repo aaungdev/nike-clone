@@ -330,12 +330,20 @@
             4 interest-free payments of $17.49 with Klarna.
             <a href="#">Learn More</a>
           </div>
-          <button
-            class="addToBag"
-            onclick="window.location.href='checkout-first.html';"
+          <div
+            id="messageBox"
+            style="
+              display: none;
+              border: 1px solid red;
+              padding: 10px;
+              color: red;
+              margin-top: 10px;
+            "
           >
-            Add to Bag
-          </button>
+            Please select a size before adding to the bag.
+          </div>
+          <button class="addToBag" disabled>Add to Bag</button>
+
           <button class="favorite">Favorite <span>&#9825;</span></button>
           <div class="additionalInfo">
             <p>
