@@ -63,7 +63,6 @@
   border: 1px solid peachpuff;
 }
 #topSalesBox {
-  position: sticky;
   top: 6vh;
   background-color: white;
   z-index: 2;
