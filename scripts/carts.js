@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const rightArrow = document.querySelector(".rightArrow");
   const sizeButtons = document.querySelectorAll(".sizeSelector .sizes button");
   const addToBagButton = document.querySelector(".addToBag");
+  const sizeLabel = document.querySelector(".sizeSelector label");
   const messageBox = document.getElementById("messageBox");
   let currentImageIndex = 0;
   let sizeSelected = false;
@@ -35,10 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   sizeButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      sizeButtons.forEach((btn) => (btn.style.border = "none"));
-      button.style.border = "2px solid #000";
+      sizeButtons.forEach((btn) => {
+        btn.classList.remove("selected");
+        btn.classList.remove("error");
+      });
+      button.classList.add("selected");
       addToBagButton.disabled = false;
       sizeSelected = true;
+      sizeLabel.classList.remove("error");
       messageBox.style.display = "none";
     });
   });
@@ -46,6 +51,10 @@ document.addEventListener("DOMContentLoaded", function () {
   addToBagButton.addEventListener("click", function (event) {
     if (!sizeSelected) {
       event.preventDefault();
+      sizeLabel.classList.add("error");
+      sizeButtons.forEach((button) => {
+        button.classList.add("error");
+      });
       messageBox.style.display = "block";
     } else {
       window.location.href = "checkout-first.html";
