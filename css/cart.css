@@ -1,3 +1,4 @@
+/* Main styling */
 main {
   display: flex;
   justify-content: center;
@@ -139,10 +140,8 @@ main {
   font-weight: bold;
 }
 
-.sizeGuide {
-  float: right;
-  text-decoration: underline;
-  cursor: pointer;
+.sizeSelector label.error {
+  color: red;
 }
 
 .sizes {
@@ -157,6 +156,15 @@ main {
   background-color: white;
   cursor: pointer;
   flex: 1 0 45%; /* Ensure two buttons per row */
+}
+
+.sizes button.selected {
+  border: 2px solid #000;
+  font-weight: bold;
+}
+
+.sizes button.error {
+  border: 2px solid red;
 }
 
 .paymentInfo {
@@ -217,14 +225,6 @@ main {
   color: gold;
 }
 
-.sizeSelector .sizes button.selected {
-  border: 2px solid #000;
-}
-
 #messageBox {
-  border: 1px solid red;
-  padding: 10px;
-  color: red;
-  margin-top: 10px;
   display: none;
 }
