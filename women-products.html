@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
     />
-    <link rel="shortcut icon" href="images/logo.jpeg" type="image/x-icon" />
-    <title>Nike. Just Do It. Nike.com</title>
-    <script src="scripts/home.js"></script>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,6 +33,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/products.css" />
     <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
@@ -105,7 +117,7 @@
         class="topnav2 container-fluid d-flex flex-wrap align-items-center justify-content-center justify-content-md-between"
       >
         <a
-          href="home.html"
+          href="/home.html"
           title="Nike Logo"
           class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none px-4"
         >
@@ -144,10 +156,18 @@
               >
             </li>
             <li>
-              <a href="women-products.html" class="nav-link px-2 link-dark fw-bold">Women</a>
+              <a
+                href="women-products.html"
+                class="nav-link px-2 link-dark fw-bold"
+                >Women</a
+              >
             </li>
             <li>
-              <a href="kids-products.html" class="nav-link px-2 link-dark fw-bold">Kids</a>
+              <a
+                href="kids-products.html"
+                class="nav-link px-2 link-dark fw-bold"
+                >Kids</a
+              >
             </li>
             <li>
               <a href="#" class="nav-link px-2 link-dark fw-bold">Jordans</a>
@@ -190,183 +210,378 @@
         </div>
       </div>
     </header>
+    <section>
+      <div class="carousel">
+        <div class="arrow leftArrow">&lt;</div>
+        <div class="carouselContent">
+          <a href="#" id="carouselText">Look for Store Pickup at Checkout</a>
+        </div>
+        <div class="arrow rightArrow">&gt;</div>
+      </div>
+    </section>
 
-    <!-- Main Sectiion of Content -->
-    <main>
-      <section class="parentContainer">
-        <div class="videoContainer">
-          <video src="Images/nike-welcome.mp4" autoplay muted loop></video>
-        </div>
-      </section>
-      <div class="sectionBelowVideo">
-        <h2>WIN ON AIR</h2>
-        <p class="txt-sp">Meet the next generation of Nike Air.</p>
-        <p class="txt-sp">
-          Engineered to exact specifications of championship althletes
-        </p>
-        <a href="/men-products.html" class="shopNowButton">Experience Air</a>
-        <a href="/men-products.html" class="shopNowButton">Shop Air</a>
-      </div>
-      <!-- Image rows -->
-      <div class="row mt-5">
-        <div class="column">
-          <figure>
-            <a href="/men-products.html" title="Vomer 5">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/075f238f-08b6-4002-9c62-ef2ab1f1ed80/nike-just-do-it.jpg"
-                alt="Nike. Just Do It"
-                style="width: 100%"
-              />
-            </a>
-            <figcaption class="figure-caption figure1 text-light">
-              <p class="fw-bold">Retro Kicks</p>
-              <h3>Vomero 5 & More</h3>
-              <a
-                class="btn btn-light me-2 mt-1 fw-bold"
-                href="men-products.html"
-                >Shop</a
-              >
-            </figcaption>
-          </figure>
-        </div>
-        <div class="column">
-          <figure>
-            <a
-              href="men-products.html"
-              title="Nike Free Metcon 6"
-              class="Image3"
-            >
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/feba1971-74ba-4c45-b472-81086b38d5dc/nike-just-do-it.jpg"
-                alt="Nike. Just Do It"
-                style="width: 100%"
-              />
-            </a>
-            <figcaption class="figure-caption figure2 text-light">
-              <p class="fw-bold">Freedom and Stability</p>
-              <h3>Nike Free Metcon 6</h3>
-              <a
-                class="btn btn-light me-2 mt-1 fw-bold"
-                href="men-products.html"
-                >Shop</a
-              >
-            </figcaption>
-          </figure>
-        </div>
-        <div class="column">
-          <figure>
-            <a
-              href="men-products.html"
-              title="Classic Black and White"
-              class="Image4"
-            >
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/87e4f256-d1d0-44e4-a4f0-16610d37e88c/nike-just-do-it.jpg"
-                alt="Nike. Just Do It"
-                style="width: 100%"
-              />
-            </a>
-            <figcaption class="figure-caption figure3 text-light">
-              <p class="fw-bold">Trending</p>
-              <h3>Classic Black and White</h3>
-              <a
-                class="btn btn-light me-2 mt-1 fw-bold"
-                href="men-products.html"
-                >Shop</a
-              >
-            </figcaption>
-          </figure>
-        </div>
-        <div class="column">
-          <figure>
-            <a
-              href="men-products.html"
-              title="Air Jordan 4'Oxidized Green"
-              class="Image5"
-            >
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_568,c_limit/e8b7a5aa-b752-4326-bebe-c575a6ba8416/nike-just-do-it.jpg"
-                alt="Nike. Just Do It"
-                style="width: 100%"
-              />
-            </a>
-            <figcaption class="figure-caption figure4 text-light">
-              <p class="fw-bold">New Arrivals</p>
-              <h3>Air Jordan 4'Oxidized Green</h3>
-              <a
-                class="btn btn-light me-2 mt-1 fw-bold"
-                href="men-products.html"
-                >Shop</a
-              >
-            </figcaption>
-          </figure>
+    <div id="salesPage">
+      <div id="topSalesBox">
+        <h1 id="heading">Men Shoes & Sneakers(861)</h1>
+        <div id="filterBox">
+          <div class="typeBar"></div>
+          <div class="filterDiv">
+            <span>Hide Filters</span>
+            <span><img src="products-images/filter.png" alt="" /></span>
+          </div>
+          <div id="sortTypes">
+            <select name="sortby" id="sort">
+              <option value="--">Sort By</option>
+              <option value="featured">Featured</option>
+              <option value="newest">Newest</option>
+              <option value="high">Price:High to Low</option>
+              <option value="low">Price:Low to High</option>
+            </select>
+          </div>
         </div>
       </div>
-      <section>
-        <div class="sectionBelowVideo1">
-          <h3>NEW THIS WEEK</h3>
-          <a href="/men-products.html" class="shopNowButton1"
-            >Shop New Arrivals</a
-          >
+      <div id="clothSortingBar">
+        <ul>
+          <li>Tops and T-Shirts</li>
+          <li>Shorts</li>
+          <li>Trousers & Tights</li>
+          <li>Jackets & Giltets</li>
+          <li>Hoddies & Sweatshirts</li>
+          <li>Socks</li>
+          <li>Compression & Baselayer</li>
+          <li>Tracksuits</li>
+          <li>Accessories and Equipments</li>
+        </ul>
+      </div>
+      <div class="salesContentBox">
+        <div class="productFilter">
+          <div class="sortTypeFilter">
+            <h1>Sort By</h1>
+            <div>
+              <input type="radio" name="sort" id="featured" value="featured" />
+              <label for="featured">Featured</label><br />
+              <input type="radio" name="sort" id="newest" value="newest" />
+              <label for="newest">Newest</label><br />
+              <input type="radio" name="sort" id="high" value="high" />
+              <label for="high">High to Low</label><br />
+              <input type="radio" name="sort" id="low" value="low" />
+              <label for="low">Low to High</label><br />
+            </div>
+          </div>
+          <div class="brandTypeFilter">
+            <h1>Brand</h1>
+            <div>
+              <input
+                type="checkbox"
+                name="brand"
+                class="brandCheckbox"
+                id="nikeSportswear"
+                value="Nike Sportswear"
+              />
+              <label for="nikeSportswear">Nike Sportswear</label><br />
+              <input
+                type="checkbox"
+                name="brand"
+                class="brandCheckbox"
+                id="jordan"
+                value="Jordan"
+              />
+              <label for="jordan">Jordan</label><br />
+              <input
+                type="checkbox"
+                name="brand"
+                class="brandCheckbox"
+                id="nikeLab"
+                value="NikeLab"
+              />
+              <label for="nikeLab">NikeLab</label><br />
+              <input
+                type="checkbox"
+                name="brand"
+                class="brandCheckbox"
+                id="nikePro"
+                value="Nike Pro"
+              />
+              <label for="nikePro">Nike Pro</label><br />
+              <input
+                type="checkbox"
+                name="brand"
+                class="brandCheckbox"
+                id="acg"
+                value="ACG"
+              />
+              <label for="acg">ACG</label><br />
+              <input
+                type="checkbox"
+                name="brand"
+                class="brandCheckbox"
+                id="nikeByYou"
+                value="Nike By You"
+              />
+              <label for="nikeByYou">Nike By You</label><br />
+            </div>
+          </div>
+          <div class="sportsTypeFilter">
+            <h1>Sports</h1>
+            <div>
+              <form>
+                <input
+                  type="radio"
+                  name="sports"
+                  id="lifestyle"
+                  value="Lifestyle"
+                />
+                <label for="lifestyle">Lifestyle</label><br />
+                <input
+                  type="radio"
+                  name="sports"
+                  id="running"
+                  value="Running"
+                />
+                <label for="running">Running</label><br />
+                <input
+                  type="radio"
+                  name="sports"
+                  id="trainingAndGym"
+                  value="Training and Gym"
+                />
+                <label for="trainingAndGym">Training & Gym</label><br />
+                <input type="radio" name="sports" id="jordan1" value="Jordan" />
+                <label for="jordan">Jordan</label><br />
+                <input
+                  type="radio"
+                  name="sports"
+                  id="athletics"
+                  value="Athletics"
+                />
+                <label for="athletics">Athletics</label><br />
+                <input
+                  type="radio"
+                  name="sports"
+                  id="skateboarding"
+                  value="Skateboarding"
+                />
+                <label for="skateboarding">Skateboarding</label><br />
+                <input type="radio" name="sports" id="golf" value="Golf" />
+                <label for="golf">Golf</label><br />
+                <input type="radio" name="sports" id="tennis" value="Tennis" />
+                <label for="tennis">Tennis</label><br />
+                <input
+                  type="radio"
+                  name="sports"
+                  id="walking"
+                  value="Walking"
+                />
+                <label for="walking">Walking</label><br />
+                <input
+                  type="radio"
+                  name="sports"
+                  id="football"
+                  value="Football"
+                />
+                <label for="football">Football</label><br />
+                <input
+                  type="radio"
+                  name="sports"
+                  id="basketball"
+                  value="Basketball"
+                />
+                <label for="basketball">Basketball</label><br />
+              </form>
+            </div>
+          </div>
         </div>
-      </section>
-      <div class="row">
-        <!-- Image Scroll Bar -->
-        <div class="scroll-container mt-5 mb-5">
-          <h2 class="text-dark px-5 text-uppercase fw-bold">
-            Shop By Classics
-          </h2>
-          <figure>
-            <a href="/men-products.html" title="Air Max">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/3a843a65-00d9-48ef-a068-4c4dfc628c3c/nike-just-do-it.jpg"
-                alt="Nike Air Max"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a href="/men-products.html" title="Air Jordan 1">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/f66e2e57-8c09-4fe2-b9c0-a8eeb1500214/nike-just-do-it.jpg"
-                alt="Air Jordan 1"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a href="/men-products.html" title="Dunk">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/105756ec-102e-4bd9-99b7-c2982b3d63fb/nike-just-do-it.jpg"
-                alt="Dunk"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a href="/men-products.html" title="Air Force 1">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/69825330-5dd3-4152-bdb4-ec28d30495f8/nike-just-do-it.jpg"
-                alt="Air Force 1"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a href="/men-products.html" title="Blazer">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/5655e9ec-0f89-4e29-9dcc-486bb6c6abac/nike-just-do-it.jpg"
-                alt="Blazer"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a href="/men-products.html" title="Vomero">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1807,c_limit/6c62a820-6f8e-4228-bce0-2488dd8531e7/nike-just-do-it.jpg"
-                alt="Vomero"
-              />
-            </a>
-          </figure>
+        <div id="container">
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/01.png" alt="Nike Air Force 1 '07" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Air Force 1 '07</h3>
+                <h3>Nike Sportswear</h3>
+                <h3>Lifestyle</h3>
+                <div class="priceBox">$210</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/02.png" alt="Nike Dunk High 1985 SP" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Dunk High 1985 SP</h3>
+                <h3>Nike By You</h3>
+                <h3>Running</h3>
+                <div class="priceBox">$150</div>
+                <div class="discountBox">Trending</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/03.png" alt="Nike Air Force 1 '07 LX" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Air Force 1 '07 LX</h3>
+                <h3>Nike Sportswear</h3>
+                <h3>Training and Gym</h3>
+                <div class="priceBox">$170</div>
+                <div class="discountBox">Trending</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/04.png" alt="Nike Air Force 1 '07" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Air Force 1 '07</h3>
+                <h3>Nike Sportswear</h3>
+                <h3>Lifestyle</h3>
+                <div class="priceBox">$120</div>
+                <div class="discountBox">40% off</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/05.png" alt="Nike Dunk High 1985 SP" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Dunk High 1985 SP</h3>
+                <h3>Nike By You</h3>
+                <h3>Running</h3>
+                <div class="priceBox">$155</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="women-images/06.png" alt="Nike Air Force 1 '07 LX" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Air Force 1 '07 LX</h3>
+                <h3>Nike Sportswear</h3>
+                <h3>Training and Gym</h3>
+                <div class="priceBox">$210</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/07.png" alt="Nike Air Force 1 '07" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Air Force 1 '07</h3>
+                <h3>Nike Sportswear</h3>
+                <h3>Lifestyle</h3>
+                <div class="priceBox">$95</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="women-images/08.png" alt="Nike Dunk High 1985 SP" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Dunk High 1985 SP</h3>
+                <h3>Nike By You</h3>
+                <h3>Running</h3>
+                <div class="priceBox">$100</div>
+                <div class="discountBox">19% off</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/09.png" alt="Nike Air Force 1 '07" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Air Force 1 '07</h3>
+                <h3>Nike Sportswear</h3>
+                <h3>Lifestyle</h3>
+                <div class="priceBox">$160</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="women-images/10.png" alt="Nike Dunk High 1985 SP" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Dunk High 1985 SP</h3>
+                <h3>Nike By You</h3>
+                <h3>Running</h3>
+                <div class="priceBox">$160</div>
+                <div class="discountBox">19% off</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/11.png" alt="Nike Air Force 1 '07" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Air Force 1 '07</h3>
+                <h3>Nike Sportswear</h3>
+                <h3>Lifestyle</h3>
+                <div class="priceBox">$200</div>
+              </div>
+            </div>
+          </div>
+          <div class="itemBox">
+            <div class="imgBox">
+              <a href="cart.html">
+                <img src="/women-images/12.png" alt="Nike Dunk High 1985 SP" />
+              </a>
+            </div>
+            <div class="textBox">
+              <div class="content">
+                <h3>Nike Dunk High 1985 SP</h3>
+                <h3>Nike By You</h3>
+                <h3>Running</h3>
+                <div class="priceBox">$95</div>
+                <div class="discountBox">30% off</div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more items as needed -->
         </div>
       </div>
-    </main>
+    </div>
     <!-- Footer -->
     <div class="container-fluid mt-5 py-2">
       <footer
@@ -532,6 +747,7 @@
         </ul>
       </div>
     </div>
+    <script src="scripts/products.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
