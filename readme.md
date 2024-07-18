@@ -4,9 +4,10 @@ Overview
 - This project is a enhance the Denzel's first Capstone. We built this web application usng HTML, CSS, Bootstrap, and JavaScript. We decided to challenge ourseleves by cloning the Nike website and functions as if the user was navigating the actual Nike.com website.
 
 # Team Members
-- Aung Aung: New & Featured, Size, Cart Pages and Overall Functionality
-- Julien: Home Page and Code tester
-- Pooja: Product Pages
+-  Aung Aung: Project Leader 
+ ( New & Featured, Size, Cart Pages and Overall Functionality )
+- Project Integrator - Julien: (Home Page and Code tester)
+- Pooja: Products and Product Showcase Pages
 - Denzel: Sign In, Sign Up, and Checkout Pages
 
 ### Requirement for the Capstone 1 Version 2.0
