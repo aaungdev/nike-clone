@@ -146,7 +146,7 @@ body {
 }
 
 .gradientButton {
-  background-color: #7e2a0e; 
+  background-color: #7e2a0e;
   border: none;
   color: white;
   padding: 15px 0;
@@ -154,11 +154,23 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-  width: 100%;
   text-align: center;
   display: inline-block;
+  flex: 1;
+  margin: 0 10px; /* Added margin for gap */
 }
 
-.gradientButton:hover {
-  background-color: #d35400; 
+.version1 {
+  background-color: #bf5700;
+}
+.version1:hover {
+  background-color: #713300;
+  color: white;
+}
+
+.version2 {
+  background-color: #d35400;
+}
+.version2:hover {
+  background-color: #ff761b;
 }
