@@ -305,7 +305,7 @@
           </div>
           <div class="shippingAddress">
             <p>Shipping Address</p>
-            <p>asdf afd<br />123 asdf st<br />woooods, NE 68001, US</p>
+            <p>Billionarie Cluv<br />123 Time Square<br />New York, NY 11107, US</p>
           </div>
           <button type="button" id="placeOrderButton">Place Order</button>
         </section>
@@ -331,6 +331,42 @@
           <p>Total: $49.80</p>
         </div>
       </aside>
+    </div>
+    <!-- Order Confirmation Modal -->
+    <div
+      class="modal fade"
+      id="orderConfirmationModal"
+      tabindex="-1"
+      aria-labelledby="orderConfirmationModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="orderConfirmationModalLabel">
+              Order Confirmation
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Your order has been placed 🚚. Thank you for your order!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -504,6 +540,15 @@
         .addEventListener("click", function () {
           document.getElementById("deliveryOptions").classList.add("hidden");
           document.getElementById("paymentSection").classList.remove("hidden");
+        });
+
+      document
+        .getElementById("placeOrderButton")
+        .addEventListener("click", function () {
+          var orderConfirmationModal = new bootstrap.Modal(
+            document.getElementById("orderConfirmationModal")
+          );
+          orderConfirmationModal.show();
         });
     </script>
     <script
