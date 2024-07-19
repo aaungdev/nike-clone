@@ -38,7 +38,7 @@ Overview
 ## Before 
 ![Checkout](version1-images/Checkout.png)
 ## After
-![Checkout](version1-images/Checkout.png)
+![Checkout](version2-images/Checkout.png)
 
 ## Sign In page
 ## Before
