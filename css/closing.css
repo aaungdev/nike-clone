@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textStyle {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10vw;
+  font-style: italic;
+}
+
+.textStyle::after {
+  content: attr(text);
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  color: transparent;
+  -webkit-text-stroke: 0.15vw black;
+}
+
+img {
+  width: 40vw;
+  animation: sneakerAnimation 4s cubic-bezier(0.25, 1, 0.5, 1) infinite
+    alternate;
+}
+
+@keyframes sneakerAnimation {
+  0%,
+  10% {
+    transform: translate(
+      110vw,
+      -5vh
+    ); 
+  }
+
+  90%,
+  100% {
+    transform: translate(
+      -20vw,
+      -10vh
+    ); 
+  }
+}
+
