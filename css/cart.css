@@ -255,6 +255,8 @@ main {
   display: block;
 }
 
+/* Add this CSS to your stylesheet */
+
 /* The Modal (background) */
 .modal {
   display: none;
