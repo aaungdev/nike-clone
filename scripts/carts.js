@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const sizeButtons = document.querySelectorAll(".sizeSelector .sizes button");
   const addToBagButton = document.querySelector(".addToBag");
   const messageBox = document.getElementById("messageBox");
+  const modal = document.getElementById("sizeModal");
+  const closeModal = document.querySelector(".closeModal");
   let currentImageIndex = 0;
   let sizeSelected = false;
 
@@ -45,12 +47,20 @@ document.addEventListener("DOMContentLoaded", function () {
   addToBagButton.addEventListener("click", function (event) {
     if (!sizeSelected) {
       event.preventDefault();
-      messageBox.classList.add("show");
-      setTimeout(() => {
-        messageBox.classList.remove("show");
-      }, 3000); // Hide after 3 seconds
+      // Show modal if size is not selected
+      modal.style.display = "block";
     } else {
       window.location.href = "checkout-first.html";
+    }
+  });
+
+  closeModal.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+
+  window.addEventListener("click", function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
     }
   });
 });

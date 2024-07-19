@@ -174,3 +174,9 @@ body {
 .version2:hover {
   background-color: #ff761b;
 }
+
+#closing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
