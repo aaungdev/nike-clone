@@ -26,14 +26,14 @@
 
 .newpdThemedark {
   position: absolute;
-  right: 400px;
-  bottom: 60px;
+  right: 200px;
+  bottom: 40px;
 }
 
 .newpdThemelight {
   position: absolute;
-  right: 650px;
-  bottom: 60px;
+  right: 450px;
+  bottom: 40px;
 }
 
 .newpdTheme span {
