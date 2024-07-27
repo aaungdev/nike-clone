@@ -5,10 +5,9 @@ Overview
 
 # Team Members
 -  Aung Aung: Project Leader 
- ( New & Featured, Size, Cart Pages and Overall Functionality )
-- Julien: Project Integrator (Home Page and Code tester)
-- Pooja: Project Coordinator (Products and Product Showcase Pages)
-- Denzel: Project Initiator (Sign In, Sign Up, and Checkout Pages)
+- Julien: Project Integrator 
+- Pooja: Project Coordinator 
+- Denzel: Project Initiator 
 
 ### Requirement for the Capstone 1 Version 2.0
 - Page Requirements: Home, Products, Checkout, Sign In, Sign Up Pages
